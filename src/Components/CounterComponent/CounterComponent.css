@@ -1,0 +1,38 @@
+div {
+    border-radius: 10px; /* زوايا دائرية */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* تأثير ظل */
+    transition: background-color 0.3s ease; /* تأثير انتقال لتغيير الخلفية */
+  }
+  
+  /* تعديل رأس العنوان */
+  h1 {
+    font-family: 'Arial', sans-serif; /* نوع الخط */
+    color: #333; /* لون الخط */
+    text-align: center; /* محاذاة النص للوسط */
+  }
+  
+  /* نمط الأزرار */
+  button {
+    background-color: #28a745; /* لون الخلفية */
+    color: white; /* لون الخط */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* مسافة داخلية */
+    margin-top: 20px; /* هامش أعلى */
+    border-radius: 5px; /* زوايا دائرية */
+    cursor: pointer; /* تغيير شكل المؤشر */
+    font-size: 16px; /* حجم الخط */
+    transition: background-color 0.3s ease; /* تأثير انتقال لتغيير لون الخلفية */
+  }
+  
+  /* تأثير تمرير المؤشر على الزر */
+  button:hover {
+    background-color: #218838; /* لون الخلفية عند تمرير المؤشر */
+  }
+  
+  /* عنوان النص عند الوصول إلى 1000 */
+  h2 {
+    text-align: center; /* محاذاة النص للوسط */
+    color: #d9534f; /* لون مميز لنص التحذير */
+    margin-top: 20px; /* هامش أعلى */
+  }
+  
